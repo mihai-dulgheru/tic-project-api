@@ -1,0 +1,48 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Starter for Node Express API projects with Firebase database packed with features like pagination, powerful middlewares and many more.",
+  "main": ".eslintrc.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node ./db/seed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/firestore": "^6.4.2",
+    "axios": "^1.2.1",
+    "bcryptjs": "^2.4.3",
+    "chance": "^1.1.9",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "express-slow-down": "^1.5.0",
+    "firebase": "^9.16.0",
+    "firebase-admin": "^11.5.0",
+    "helmet": "^5.1.1",
+    "jsonwebtoken": "^9.0.0",
+    "pino": "^6.14.0",
+    "validator": "^13.7.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-vue": "^9.8.0",
+    "nodemon": "^2.0.20",
+    "pino-pretty": "^9.1.1",
+    "prettier": "^2.8.1"
+  }
+}
