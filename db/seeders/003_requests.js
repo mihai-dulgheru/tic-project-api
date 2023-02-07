@@ -13,7 +13,6 @@ exports.seed = async () => {
       const coachData = coach.data();
       return { id: coach.id, ...coachData };
     });
-    // TODO: add messages
     const batch = db.batch();
     seeds.forEach((seed, index) => {
       const ref = db
