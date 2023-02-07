@@ -132,8 +132,5 @@ dist
 # vscode
 .vscode/
 
-# Firebase
-firebase/key/*.json
-
 # TODO.md
 TODO.md
