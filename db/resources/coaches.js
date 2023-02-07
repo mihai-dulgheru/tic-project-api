@@ -14,7 +14,7 @@ module.exports = async () => {
   return [
     {
       id: identitiesData[0].id,
-      areas: areas,
+      areas,
       description: chance.paragraph(),
       email: 'mihai@email.com',
       firstName: 'Mihai-Nicolae',
