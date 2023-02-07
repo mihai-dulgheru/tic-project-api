@@ -3,7 +3,8 @@ const origin = require('./origin');
 
 const setupCors = () => {
   return cors({
-    origin,
+    // origin,
+    origin: true,
     credentials: true,
     exposedHeaders: [
       'Content-Disposition',
