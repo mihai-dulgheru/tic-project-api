@@ -1,8 +1,4 @@
-# Express Firestore API starter
-
-Starter for Node Express API projects with Firestore database.
-
-## Documentation and wiki
+# Information and Communication Technologies API
 
 ## Quick start
 
