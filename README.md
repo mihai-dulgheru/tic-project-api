@@ -1,4 +1,4 @@
-# Information and Communication Technologies API
+# Information and Communication Technologies Project API
 
 ## Quick start
 
